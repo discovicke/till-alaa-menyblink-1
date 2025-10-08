@@ -1,15 +1,13 @@
-
-
 public abstract class Lager
 {
-    public string Namn;
-    public int Antal;
-    public int Prislapp;
+    public string? namn;
+    public int antal;
+    public int prislapp;
     public Lager(string namn, int antal, int prislapp)
     {
-        this.Namn = namn;
-        this.Antal = antal;
-        this.Prislapp = prislapp;
+        this.namn = namn;
+        this.antal = antal;
+        this.prislapp = prislapp;
     }
    
 

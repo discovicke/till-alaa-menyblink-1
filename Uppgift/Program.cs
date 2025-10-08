@@ -1,5 +1,5 @@
 ﻿
-public class Program
+public partial class Program
 {
     static void Main()
     {
@@ -9,9 +9,9 @@ public class Program
             new Tshirt("Vailent", 10, "Svart", Storlek.Large, 250),
             new Jeans("Levis", 5, true, Storlek.Medium, 800),
             new Jeans("Neuw", 3, false, Storlek.XLarge, 1000),
-            new Tshirt("Hugo", 2, "Röd", Storlek.Small, 200),
+            new Tshirt("Hugo", 2, "Rod", Storlek.Small, 200),
             new Jacka("Burton", 4, "Gul", true, Storlek.XXLarge, 2500),
-            new Hoodies("GANT", 0, "Blå", Storlek.Large, 400),
+            new Hoodies("GANT", 0, "Bla", Storlek.Large, 400),
             new Hoodies("Ralph Lauren", 3, "Beige", Storlek.XLarge, 699),
         };
         int position = 0;
@@ -19,7 +19,7 @@ public class Program
         while (true)
         {
             Console.Clear();
-            Console.WriteLine("## Välkommen till Trogsta Secondhand ##");
+            Console.WriteLine("## Valkommen till Trogsta Secondhand ##");
             for (int i = 0; i < val.Length; i++)
             {
                 if (i == position) Console.ForegroundColor = ConsoleColor.Green;
@@ -45,7 +45,5 @@ public class Program
                 }
             }
         }
-
     }
 }
-

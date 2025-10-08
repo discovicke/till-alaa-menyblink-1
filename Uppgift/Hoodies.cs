@@ -1,14 +1,15 @@
 public class Hoodies : Lager
 {
-    public string Färg;
-    public Storlek Storlek;
+    public string farg;
+    public Storlek storlek;
     
-    public Hoodies(string namn, int antal , string färg, Storlek storlek, int prislapp) :base(namn, antal, prislapp)
+    public Hoodies(string namn, int antal , string farg, Storlek storlek, int prislapp) :base(namn, antal, prislapp)
     {
-      Färg = färg;
+      this.farg = farg;
+      this.storlek = storlek;
     }
     public override void VisaInfo()
     {
-        Console.WriteLine($"{Namn} {Färg} {Storlek} {Prislapp} kr");
+        Console.WriteLine($"{namn} {farg} {storlek} {prislapp} kr");
     }
 }

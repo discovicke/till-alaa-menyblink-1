@@ -11,4 +11,5 @@ public enum Storlek
 
     }
 
-//Kanske blir något annat vi får se.
+
+// Kanske blir nÃ¥got annat, vi fÃ¥r se.
